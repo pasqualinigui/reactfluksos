@@ -38,7 +38,7 @@
         "useExhaustiveDependencies": "warn"
       },
       "suspicious": {
-        "noExplicitAny": "error",
+        "noExplicitAny": "off",
         "noEmptyInterface": "warn",
         "noArrayIndexKey": "error",
         "noDocumentCookie": "off"

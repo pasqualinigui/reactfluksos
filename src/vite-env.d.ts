@@ -2,7 +2,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_API_URL: string;
-  // adicione outras variáveis de ambiente aqui
+  readonly VITE_APP_TITLE?: string;
 }
 
 interface ImportMeta {

@@ -2,7 +2,6 @@ import { createRootRoute, Outlet } from '@tanstack/react-router';
 import { AppQueryProvider } from '@/components/providers/query-provider';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 
-// Error Boundary Sênior para erros não tratados (Exceptions/Quebras do React)
 const RootErrorComponent = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-6 text-center">
@@ -24,7 +23,6 @@ const RootErrorComponent = () => {
   );
 };
 
-// Componente Sênior de 404 para rotas que não existem
 const RootNotFoundComponent = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-6 text-center">
