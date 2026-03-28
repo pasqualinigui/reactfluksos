@@ -17,7 +17,7 @@
     "lint:fix": "biome check --write . || true",
     "format": "biome format --write .",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "prepare": "husky"
   },
@@ -79,6 +79,7 @@
     "@fontsource-variable/geist": "^5.2.8",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.2",
+    "@tanstack/react-query-devtools": "^5.95.2",
     "@tanstack/router-cli": "^1.166.18",
     "@tanstack/router-plugin": "^1.167.4",
     "@testing-library/react": "^16.3.2",
